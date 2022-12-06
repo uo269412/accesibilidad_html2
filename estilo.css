@@ -1,0 +1,98 @@
+  /*001*/
+body {
+    max-width: 80rem;
+    margin: auto;
+    font-family: "Optima", sans-serif;
+    padding:2%;
+    font-size:1vw;
+    background-color:white;
+    color:#003049;
+}
+/*001*/
+h1 {
+    color:#27187e;
+    border-radius: 1em;
+    text-transform: uppercase;
+    padding: 5%;
+    font-size: 400%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #f1f2f6;
+    text-align: center;
+}
+/*001*/
+h2 {
+    color:#758bfd;
+    font-size: 150%;
+    text-transform: uppercase;
+    background-color:white;
+}
+
+/*001*/
+h3 {
+    color:#6a71a1;
+    text-transform: uppercase;
+    background-color:white;
+}
+h4 {
+    font-size:1.05vw;
+    text-decoration: underline;
+}
+/*001*/
+footer {
+    text-align: center;
+}
+/*001*/
+address {
+    text-align: center;
+}
+/*001*/
+nav {
+    display: block;
+    text-align: center;
+}
+/*002*/
+nav > a {
+    padding: 5%;
+    display: inline-block;
+    font-size: 125%;
+    background-color:rgb(196, 196, 196);
+    border-radius: 1em;
+}
+
+/*011*/
+a:link{
+    color:rgb(14, 61, 119);
+    font-size:1vw;
+}
+/*011*/
+a:visited{
+    color:rgb(6, 49, 99);
+    font-size:1vw;
+}
+#selected{
+    background-color:rgb(0, 104, 201);
+    color:rgb(255, 255, 255);
+}
+a:visited > h2{
+    color:#758bfd;
+    font-size: 150%;
+    text-transform: uppercase;
+    background-color:white;
+}
+button {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    background-color:rgb(134, 194, 250);
+    padding: 5%
+}
+img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90%;
+    margin: 20px auto;
+  }
